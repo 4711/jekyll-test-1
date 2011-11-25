@@ -1,0 +1,12 @@
+server: true
+auto: true
+permalink: /:year/:title/
+navigation:
+- title: Home
+  url: /
+- title: Portfolio
+  url: /portfolio
+- title: About
+  url: /about
+- title: Contact
+  url: /contact

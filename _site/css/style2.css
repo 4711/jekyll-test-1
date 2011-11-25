@@ -1,0 +1,1521 @@
+* {
+    margin: 0;
+}
+
+*:focus {outline: 0;}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #f3f4eb;
+    font-family: helvetica, arial, sans-serif;
+    color: #4c3a2c;
+}
+
+h1, h2, h3, h4, p, ul, ol {
+    margin-bottom: 1em;
+}
+
+ul ul {
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+div.tabletitle, h1#title-heading, h1, h2, h3, h4, h5, h6, p, ul, ol, h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited {
+    color: #4c3a2c !important;
+    text-decoration: none !important;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 182%;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+#com-atlassian-confluence h1 {
+    margin: .125em 0 !important;
+}
+
+h2 {
+    margin-bottom: 1.1em;
+    font-size: 123%;
+}
+
+h3 {
+    margin-bottom: 1.2em;
+    font-size: 116%;
+}
+
+h4 {
+    margin-bottom: 1.2em;
+    font-size: 108%;
+}
+
+h5 {
+    margin-bottom: 1.2em;
+    font-size: 100%;
+}
+
+h6 {
+    margin-bottom: 1.2em;
+    font-size: 93%;
+}
+
+.wiki-content h6 {
+    margin-top: 1.25em;
+}
+
+.wiki-content p, .wiki-content ul, .wiki-content ol {
+    margin-top: 0;
+}
+
+.wiki-content h3, .wiki-content h4, .wiki-content h5, .wiki-content h6 {
+    margin-bottom: .5em;
+}
+
+p {
+    line-height: 1.6em !important;
+    font-size: 100% !important;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #375fa0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 1.5em 0;
+    border: 0;
+    color: #accda5;
+    background-color: #accda5;
+    height: 1px;
+}
+
+hr.grey {
+    margin: 1.5em 0;
+    border: 0;
+    color: #dcddd3;
+    background-color: #dcddd3;
+    height: 1px;
+}
+
+div.post hr {
+    clear:none;
+}
+
+ul, ol {
+    position: relative;
+}
+
+ul, ol {
+    margin-top: 1em;
+    padding-left: 1.2em;
+    line-height: 1.5em;
+    font-size: 100%;
+}
+
+ol {
+    margin-bottom: 1em;
+    margin-left: .8em;
+}
+
+div.split ul li {
+    margin-left: 1em;
+    list-style-image: url(http://media.mongodb.org/bullet-green.png);
+    list-style-type: disc;
+}
+
+div.split ul li.nobullet {
+  margin-left: 0px;
+  text-indent: 0px;
+  list-style:none;
+}
+
+
+ul li ul, ul li ol {
+    margin-left: 0;
+    padding-bottom:0;
+}
+
+.home li a, .home li a:visited {
+    color: #4c3a2c !important;
+}
+
+.home li p a, .home li p a:visited {
+  color: #375fa0 !important;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+dl dt {
+    float: left;
+    padding-right: .5em;
+}
+
+p {
+    margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 100%;
+}
+
+em {
+    font-weight: normal;
+    font-style: italic;
+}
+
+i {
+    font-weight: normal;
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+img {
+    border: none;
+}
+
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+}
+
+/* shortcut classes */
+
+.print {
+    display: none;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.nobr {
+    white-space: nowrap;
+}
+
+div.align-center {
+    text-align: center !important;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.hidden {
+    display: none;
+}
+
+.message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin: 1.5em;
+}
+
+label.error {
+    color: #fd6400;
+    font-size: 70%;
+}
+
+#promptsignup form label.error {
+    margin-left: 4px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.display-none {
+    display: none;
+}
+
+.border-none {
+    border: none
+}
+
+.border-bottom {
+  border-bottom: 1px solid #eaeadf;
+  padding-bottom: .25em;
+}
+
+.bgcolor-none {
+    background-color: transparent;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.tab-left {
+    padding-left: 1em;
+}
+
+.tab-right {
+    padding-right: 1em;
+}
+
+div.margin-left-none {
+    margin-left: 0 !important;
+}
+
+.icon-left {
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+}
+
+.container {
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button, a.button:visited {
+    padding: 2px .5em;
+    border: 1px solid #79b869;
+    background-color: #56952d;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* layout */
+
+div.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -6em;
+}
+
+div.spread {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 975px;
+}
+
+div.split {
+    width: 950px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+div.split-left {
+    float: left;
+    width: 612px;
+    margin-bottom: 4em;
+}
+
+div.split-right {
+    float: right;
+    width: 300px;
+  font-size: 85%;
+}
+
+/* header-db */
+
+#header-db {
+    height: 126px;
+    background-color: #402817;
+    background-image: url(http://media.mongodb.org/back-header.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#header-db div#logo {
+    margin-left: -4px;
+    padding-top: 20px;
+}
+
+#breadcrumbsback {
+    padding: 1em 0 .8em 0;
+    background-color: #f6f4cd;
+}
+
+#breadcrumbsback div.split {
+    overflow: hidden;
+}
+
+ol#breadcrumbs {
+    margin-left: -14px;
+}
+
+#breadcrumbs li {
+    background:transparent url(http://media.mongodb.org/icon-breadcrumbs.png) no-repeat auto 1px center;
+    display:inline;
+    float:left;
+    line-height:1.8em;
+    margin:0 0.33em 0 0;
+    padding-left:15px;
+    white-space:nowrap;
+    line-height: 1.4em;
+}
+
+#breadcrumbs {
+    color:#158f35;
+}
+
+#main-db {
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+    background-image: url(http://media.mongodb.org/back-body.png);
+    background-repeat: repeat-x;
+}
+
+#footer {
+    clear: both;
+    margin-top: 4em;
+    padding-top: 1.5em;
+    background-image: url(http://media.mongodb.org/back-footer.png);
+    background-repeat: repeat-x;
+    background-color: #fdfcf7;
+    height: 6.5em;
+    line-height: 1.5em;
+}
+
+div.sponsor {
+    clear: both;
+    position: relative;
+    top: 2em;
+    font-size: 85%;
+    text-align: center;
+}
+
+div.copyright {
+    clear: both;
+    position: relative;
+    top: 2em;
+    font-size: 80%;
+    text-align: center;
+}
+
+
+#footer #poweredby {
+    margin:0;
+}
+
+.footer-db, .push {
+    height: 3em;
+}
+
+#footer #poweredby {
+    background:transparent none repeat-x auto 0 0;
+}
+
+/* top right */
+
+div#top-right {
+    position: absolute;
+    top: -3px;
+    right: 10px;
+    *z-index: 10;
+}
+
+div#top-right ul#header-menu-bar {
+    margin-top: 0;
+    padding-left: 20px;
+    height: 38px;
+    background-image: url(http://media.mongodb.org/trans-user-left.png);
+    background-repeat: no-repeat;
+}
+
+div#top-right div.user-right  {
+    float: right;
+    height: 38px;
+    min-width: 186px;
+    margin: 0;
+    padding: 0 20px 0 0;
+    font-size: 85%;
+    background-image: url(http://media.mongodb.org/trans-user-right.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+div#top-right div.user-right li.normal {
+    float: left;
+    padding: 8px 1em 0 0;
+    height: 38px;
+    background-image: url(http://media.mongodb.org/trans-user-back.png);
+    background-repeat: repeat-x;
+    list-style-type: none;
+    font-size: 93%;
+    color: #c48c55;
+}
+
+div#top-right div.user-right a, div#top-right div.user-right a:visited {
+    border-right: 1px solid #663f12;
+    padding-right: 1em;
+    color: #aa814d;
+    font-weight: normal;
+}
+
+div#top-right div.user-right li.last, div#top-right div.user-right a.last, div#top-right div.user-right a.last:visited {
+    padding-right: 0;
+    border-right: none;
+}
+
+.quick-search {
+    margin: 0;
+    padding: 0;
+}
+#quick-search input {
+    float: right;
+}
+.quick-search input {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+input.blank-search,
+.quick-search .placeholded {
+    color: #666;
+}
+input.blur {
+    color: #666;
+}
+input[type="text"]:disabled {
+    color: #333;
+}
+#quick-search-query {
+    width: 13em;
+}
+
+div.search-db {
+    position: absolute;
+    top: 54px;
+    right: 8px;
+    width: 246px;
+    height: 31px;
+    background-image: url(http://media.mongodb.org/back-search-input.png);
+    background-repeat: no-repeat;
+    *z-index: 1;
+}
+
+input#quick-search-query {
+    -webkit-appearance:none;
+    background-color: transparent !important;
+    position: relative;
+    top: 7px;
+    width: 230px;
+    border: none;
+    font-size: 73%;
+    color: #dbcaaf;
+}
+
+input#quick-search-query:active {
+    border:none !important;
+}
+
+#quick-search .placeholded {
+    color: #dbcaaf;
+}
+
+#quick-nav-drop-down {
+    font-size:0.9em;
+    top:90px;
+    width:25em;
+}
+
+/* Drop-down menu layout */
+#top-right .ajs-menu-bar li .ajs-drop-down a {
+    background: #fff no-repeat 4px 50%;
+    border: none;
+    display: block;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 0.5em 0 24px;
+    text-decoration: none;
+}
+#top-right .ajs-menu-bar .ajs-drop-down {
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    background-color: #fff; /* system colour - not derived from colour scheme */
+    border: solid 1px #c1c1c1;
+    font-weight: normal;
+    min-width: 10em;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1000;
+}
+#top-right .ajs-menu-bar .ajs-drop-down ul,
+#top-right .ajs-menu-bar ul.ajs-drop-down {
+    border-top: solid 1px #e1e1e1;
+    margin: 0;
+    padding: 5px 0;
+    list-style: none;
+}
+#top-right .ajs-menu-bar .ajs-drop-down ul.first,
+#top-right .ajs-menu-bar ul.ajs-drop-down.first {
+    border-top: none;
+}
+#top-right .ajs-menu-bar .ajs-drop-down li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#top-right .ajs-menu-bar div.ajs-drop-down a {
+    background-position: .5em 50%;
+    background-repeat: no-repeat;
+    border: none;
+    display: block;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.ajs-menu-bar div.ajs-drop-down a {
+    *padding-left: 100px;
+}
+
+.ajs-menu-bar div.ajs-drop-down a span {
+    padding: 0 .5em;
+}
+
+.ajs-menu-bar div.ajs-drop-down a:hover span {
+    padding: 0 .5em;
+    background-color: #41b051;
+    color: #fff;
+}
+
+.ajs-menu-bar .ajs-drop-down a img {
+    float: left;
+    *float: none;
+    height: 93%;
+    margin: .3em 0 0 -20px;
+    width: 93%;
+}
+
+.ajs-menu-bar .ajs-menu-item .trigger span {
+    background-image:url(http://media.mongodb.org/menu_indicator.png);
+}
+
+div.user-right .ajs-menu-bar .ajs-menu-item.opened .trigger span span {
+    background-image: none !important
+}
+
+li.normal a#browse-menu-link, li.normal a#browse-menu-link:visited, li.normal a#user-menu-link, li.normal a#user-menu-link:visited {
+    padding: 0 1em;
+}
+
+li.opened a#browse-menu-link, li.opened a#browse-menu-link:visited, li.opened a#user-menu-link, li.opened a#user-menu-link:visited {
+    padding: 0 1em;
+    background-color: #41b051 !important;
+}
+
+a.ajs-menu-title:hover, a.trigger:hover, a.browse:hover {
+    background-color: #41b051;
+}
+
+div#navigation a.trigger:hover span {
+    background-color: #41b051;
+}
+
+div#navigation a.trigger:hover span {
+    background-color: transparent;
+}
+
+div#navigation ul li, div#children131081-1 ul li, div#children132288-1 ul li, ul div ul li {
+    list-style-type: none !important;
+    list-style-image: none !important;
+}
+
+div#navigation .ajs-menu-bar div.ajs-drop-down a {
+    padding:0 1em 0 25px;
+    *padding: 0 1em 0 .75em;
+}
+
+div#navigation .ajs-menu-bar div.ajs-drop-down a span {
+    padding:0;
+    *padding:0 0 0 21px;
+    *background-position: 0 0%;
+}
+
+div#navigation .ajs-menu-bar .ajs-button a:hover, .ajs-menu-bar .ajs-menu-item li.active a, .ajs-menu-bar li.ajs-menu-item.opened .ajs-drop-down li.active a, #header .ajs-menu-bar li.ajs-menu-item.opened .ajs-drop-down li.active a {
+    background-color:#41b051;
+    color:#FFFFFF;
+}
+
+.ajs-menu-bar li.ajs-menu-item.opened a.trigger {
+    background-color: #41b051 !important;
+}
+
+a.ajs-menu-title:hover span, a.trigger:hover span, a.browse:hover span {
+    background-color: #41b051;
+}
+
+a.ajs-menu-title:hover span span, a.trigger:hover span span, a.browse:hover span span {
+    background-color: #41b051;
+}
+
+div.user-right ul li {
+    margin-left: 0 !important;
+}
+
+#wiki-editor {
+    background:transparent none repeat auto 0 0;
+    padding:0.9em 0;
+}
+
+.editable-title {
+    margin:0;
+}
+
+.dp-highlighter {
+    width:500px;
+}
+
+div.wiki-content p {
+    max-width: 800px;
+}
+
+div#children-section {
+    margin-top: 3em;
+}
+
+a, a:visited {
+    color:#375FA0;
+}
+
+a.createlink, a.createlink:visited, a.nofollow, a.nofollow:visited {
+    color:#375FA0 !important;
+}
+
+table.confluenceTable {
+    background-color: #fff;
+}
+
+#navigation .ajs-menu-bar .ajs-button a.edit span {
+    background-image:url(http://media.mongodb.org/icon-edit.png);
+}
+
+#navigation .ajs-menu-bar .ajs-button span, #navigation .ajs-menu-bar .ajs-menu-item .ajs-menu-title span span {
+    padding-left:30px;
+}
+
+#navigation .ajs-menu-bar li.ajs-menu-item .ajs-menu-title, #navigation .ajs-menu-bar li.ajs-button a {
+    line-height: 35px;
+}
+
+#navigation .ajs-menu-bar li.ajs-menu-item .ajs-menu-title, #navigation .ajs-menu-bar li.ajs-button a {
+    line-height:25px;
+    padding:0.35em 0.5em;
+}
+
+#navigation .ajs-menu-bar li.ajs-menu-item a.add span span {
+    background-image:url(http://media.mongodb.org/icon-add.png);
+}
+
+#navigation .ajs-menu-bar li.ajs-menu-item a.action span span {
+    background-image:url(http://media.mongodb.org/icon-tools.png);
+}
+
+td.confluenceTd ul div ul {
+    padding-left: 0;
+}
+
+div.tabletitle {
+    font-size: 116%;
+    margin-top: 6px;
+}
+
+div.plugin_pagetree_children > ul > li {
+    margin-left: -5px;
+}
+
+div#content table {
+    width: 100%;
+}
+
+td.pagecontent {
+    padding-right: 20px;
+}
+
+td.pagecontent-right {
+    min-width: 150px;
+}
+
+.page table {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1em;
+}
+
+div.page-metadata li, li.page-metadata-modification-info {
+    list-style-image: none !important;
+    list-style-type: none !important;
+}
+
+#home-nav {
+    padding: 0;
+    background-color: #f6f4cd;
+}
+
+#home-nav a:active, #home-nav a:focus {
+    outline: none;
+}
+
+div.split ul.home-nav {
+    margin: 0;
+    height: 62px;
+    padding: 15px 0 4px 0;
+    width: 980px;
+}
+
+div.split ul.home-nav li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+ul.home-nav li.docs {
+    width: 276px;
+}
+
+ul.home-nav li.docs a, ul.home-nav li.docs a:visited {
+    float: left;
+    background: url(/static/images/home_nav.png) -11px -63px;
+    width: 209px;
+    height: 54px;
+}
+
+ul.home-nav li.docs a:hover {
+    float: left;
+    background: url(/static/images/home_nav.png) -11px 0;
+    width: 209px;
+    height: 54px;
+}
+
+ul.home-nav li.try {
+    width: 238px;
+}
+
+ul.home-nav li.try a, ul.home-nav li.try a:visited {
+    float: left;
+    background: url(/static/images/home_nav.png) -274px -63px;
+    width: 176px;
+    height: 54px;
+}
+
+ul.home-nav li.try a:hover {
+    float: left;
+    background: url(/static/images/home_nav.png) -274px 0;
+    width: 176px;
+    height: 54px;
+}
+
+ul.home-nav li.downloads {
+    width: 245px;
+}
+
+ul.home-nav li.downloads a, ul.home-nav li.downloads a:visited {
+    float: left;
+    background: url(/static/images/home_nav.png) -497px -63px;
+    width: 185px;
+    height: 54px;
+}
+
+ul.home-nav li.downloads a:hover {
+    float: left;
+    background: url(/static/images/home_nav.png) -497px 0;
+    width: 185px;
+    height: 54px;
+}
+
+ul.home-nav li.drivers {
+    width: 192px;
+}
+
+ul.home-nav li.drivers a, ul.home-nav li.drivers a:visited {
+    float: left;
+    background: url(/static/images/home_nav.png) right -63px no-repeat;
+    width: 194px;
+    height: 54px;
+}
+
+ul.home-nav li.drivers a:hover {
+    float: left;
+    background: url(/static/images/home_nav.png) right 0 no-repeat;
+    width: 194px;
+    height: 54px;
+}
+
+#main-db h1 {
+    margin-bottom: .75em;
+}
+
+#main-db p {
+    font-size: 85% !important;
+}
+
+ul.home {
+    margin-left: -28px;
+    margin-top: 1.25em;
+    padding: 0 1.75em;
+    background: url(http://media.mongodb.org/white-fade.png) no-repeat;
+}
+
+ul.home {
+    list-style-image: url(http://media.mongodb.org/bullet-green.png);
+}
+
+ul.home p {
+    margin-bottom: 1.66em;
+}
+
+div.split ul.home li {
+    margin-left: .9em;
+    padding-left: .125em;
+    font-weight: bold;
+}
+
+#main-db ul.home p {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.split-right {
+    margin: -5px 0 5em 0;
+    padding: 0 5px 0 2px;
+}
+
+.split-right.column {
+  margin-top: 0px;
+  font-size: 100%;
+}
+
+.split-right .back-heading {
+  height: 24px;
+  margin-bottom: .5em;
+  border-bottom: 1px solid #e8eada;
+  background: url(/static/images/back_home_right.png) no-repeat 0 0;
+}
+
+.split-right .production, .split-right .about, .split-right .commercial {
+  margin: 0 0 3em;
+}
+
+div.newsletter div {
+  position: relative;
+  margin: .5em 0 0;
+  padding: .4em .5em .7em .75em;
+  background-color: #eaeadf;
+  border-radius:8px;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+}
+
+div.newsletter {
+  margin-bottom:3em;
+}
+
+div.split-right div.newsletter div ul, div.split-right div.newsletter div ul li {
+  margin:0px;
+  padding:0px;
+  background:none;
+  list-style:none;
+}
+
+div.newsletter div ul li#mktFrmButtons {
+  height:0px;
+}
+
+div.newsletter input[type="text"] {
+  height: 22px;
+  width: 250px !important;
+  border: none;
+  border-top: 2px solid #cbc5c0;
+  border-left: 2px solid #cbc5c0;
+  margin-top: .25em;
+  padding-top:3px;
+  padding-left: 5px;
+  color: #919288;
+}
+
+input.go {
+  position: absolute;
+    top: 3px;
+  right: 5px;
+  bottom: .5em;
+  width: 39px;
+  height: 39px;
+  border: none;
+  background: transparent url(/static/images/input-go.png) no-repeat;
+  cursor: pointer;
+}
+
+div.newsletter input.go {
+  top:-4px !important;
+  right:-6px !important;
+}
+
+.split-right .back-production {
+  background-position: 0 -30px;
+}
+
+.split-right .back-about {
+  background-position: 0 -60px;
+}
+
+.split-right .back-commercial {
+  background-position: 0 -90px;
+}
+
+.fade {
+    background: url(http://media.mongodb.org/white-fade-right.png) no-repeat 0 40px;
+}
+
+a.twitter, a.twitter:visited {
+    display: block;
+    margin: 0 10px 0 20px;
+    border-bottom: 1px solid #edefe5;
+    padding-bottom: 5px;
+    background: url(/static/images/home-twitter.png) -10px -71px no-repeat;
+    width: 260px;
+    height: 51px;
+}
+
+div.support {
+    background: url(http://media.mongodb.org/white-fade-right2.png) no-repeat;
+    padding: 1.75em 0 2em 0;
+}
+
+a.support, a.support:visited {
+    display: block;
+    margin: 2em 10px 1em 17px;
+    background: url(http://media.mongodb.org/home-10gen.png) -10px -71px no-repeat;
+    width: 258px;
+    height: 69px;
+}
+
+a.support:hover {
+    background: url(http://media.mongodb.org/home-10gen.png) -10px 0 no-repeat;
+}
+
+.query .tweet_list li {
+    padding: 10px 10px 10px 0 !important;
+}
+
+div.deployments {
+    margin-top: 5px;
+    background: url(/static/images/back-usecase-trans.png) no-repeat;
+}
+
+div.deployments p {
+    text-align: right;
+}
+
+#main-db div.deployments p {
+    margin: 50px 0 0 0;
+    padding: 12px 0 10px 0;
+}
+
+#main-db div.deployments p a, #main-db div.deployments p a:visited {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#main-db div.deployments div#sampleUseCase {
+    position: relative;
+    top: 49px;
+    height: 47px;
+    background: url(/static/images/sample_deployments.png) 20px 17px no-repeat;
+}
+
+#main-db div.deployments p.more {
+    padding-top: 23px;
+}
+
+#terminal {
+    margin: 1em 0 0;
+    padding: .25em 0;
+    height: 400px;
+    background: #1f140d;
+    overflow: auto;
+}
+
+#terminal div {
+    padding-bottom: 15px;
+}
+
+#terminal div.line {
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+#terminal input.readLine {
+    border-bottom: 4px solid #1f140d;
+    font-size: 100%;
+}
+
+#terminal input {
+    width: 880px;
+    margin: 1px 0 1px 10px;
+    border: none;
+    display: inline;
+    padding: 2px;
+    background: #1f140d;
+    color: #55d839;
+    font-size: 100%;
+    font-family: Monaco, monospace;
+}
+
+#terminal p, #terminal pre {
+    margin: 2px;
+    padding: 0 8px;
+    color: #55d839;
+    font-size: 85%;
+    font-family: Monaco, monospace;
+    color: #55d839 !important;
+}
+
+#terminal a {
+    color:  #55d839;
+}
+
+#terminal span.prompt {
+    color: #55d839;
+    font-size: 93%;
+    margin-left: 12px;
+}
+
+#shell {
+    margin: -15px 8px 0 2px;
+}
+
+#shell > div {
+    margin: 0 0 3em;
+}
+
+#shell img.title {
+    margin: 0;
+}
+
+#shell a.hide, #shell a:visited.hide {
+    float: right;
+    margin-top: 30px;
+    font-size: 73%;
+}
+
+div.commercial-support {
+    margin: .5em 0 2em 0;
+    padding: 0 1.33em;
+    white-space:nowrap;
+}
+
+div.commercial-support > img {
+    margin: 0 0 .5em;
+}
+
+div.commercial-support p {
+    margin: 0;
+    border-top: 1px solid #e8eadb;
+    padding: .5em 0;
+}
+
+div.commercial-support a, div.commercial-support a:visited {
+    font-weight: bold;
+}
+div.twtr-widget {
+    margin: 0 12px 0 10px;
+    font-size: 85% !important;
+}
+
+.twtr-hd {
+    padding: 2px;
+}
+
+#twtr-widget-1 .twtr-new-results, #twtr-widget-1 .twtr-results-inner, #twtr-widget-1 .twtr-timeline {
+    background: none !important;
+    border-bottom: 1px solid #fff;
+}
+.twtr-ft {
+    margin-top: 12px;
+}
+#downloads {
+    border-collapse: collapse;
+    font-size: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    color: black;
+}
+#downloads thead {
+    font-size: 115%;
+    padding: 0em;
+}
+#downloads .divider {
+    background-color: #DCDBD3;
+    font-size: 125%;
+    text-align: left;
+    border: 1px solid #BCBBB3;
+}
+#downloads .divider td {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+#downloads td {
+    padding: 1em 0.5em 1em 0.5em;
+}
+#downloads td.table_top {
+    border-top: 1px solid #BCBBB3;
+    text-align: center;
+    vertical-align: top;
+}
+#downloads td.table_left {
+    border-left: 1px solid #BCBBB3;
+}
+#downloads td.table_right {
+    border-right: 1px solid #BCBBB3;
+}
+#downloads td.table_bottom {
+    border-bottom: 1px solid #BCBBB3;
+}
+#downloads .version {
+    font-size: 130%;
+    padding-bottom: 0.5em;
+}
+#downloads .date {
+    font-style: italic;
+    padding-bottom: 0.5em;
+}
+#downloads .changelog {
+    padding-top: 0.5em;
+}
+#downloads .odd {
+    background-color: #FEFDF8;
+}
+#downloads .even {
+    background-color: #EFEEE6;
+}
+#downloads .dl_link {
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#downloads .not_last {
+    border-bottom: 1px solid #CCCBC3;
+}
+#downloads .warning {
+    color: #AE3333;
+    font-size: 85%;
+}
+#drivers {
+    border-collapse: collapse;
+    background-color: #FDFCF7;
+    margin-bottom: 1.2em;
+    margin-left: 3em;
+}
+#drivers thead {
+    background-color: #EFEEE6;
+}
+#drivers td {
+    border: 1px solid #CCCBC3;
+    padding: 0.5em 2.5em 0.5em 0.5em;
+}
+#disqus_thread {
+    margin-top: 2em;
+}
+#download-starting {
+    margin-bottom: 2em;
+}
+#download-starting p {
+    margin: 6px;
+}
+#helpful-links h3 {
+    margin: 0;
+}
+#helpful-links ul {
+    margin-top: 8px;
+}
+#helpful-links h3, #helpful-links ul li {
+    font-size: 14px;
+}
+
+/* marketo forms */
+
+form.marketo-form ul {
+  margin:0px;
+  width:100%;
+  padding:0px;
+  list-style:none;
+}
+
+form.marketo-form ul li {
+  clear:both;
+  width:100%;
+  margin:0px;
+  padding:3px 0px 4px 0px;
+  list-style:none;
+  background:none;
+}
+
+form.marketo-form ul li label {
+  width:110px;
+  font-size:13px;
+  text-align:right;
+  padding:0px;
+  margin:0px;
+  margin-right:13px;
+  display:block;
+  float:left;
+}
+
+form.marketo-form ul li span.error-message {
+  color:#ff6600;
+  margin-left:123px;
+}
+
+form.marketo-form textarea {
+  width:330px;
+  height:140px;
+}
+
+form.marketo-form input[type=text] {
+  width:330px;
+}
+
+#promptsignup input[type="text"] {
+  width:auto !important;
+}
+
+#promptsignup li#mktFrmButtons label {
+  display:none;
+}
+
+/* download redirects */
+
+.alert {
+  margin: -.5em 0 2em;
+  padding: .25em;
+  background: #fff;
+}
+
+.alert h2 {
+  margin: 0;
+  border: 2px solid #65ae41;
+  padding: .75em;
+  text-align: center;
+}
+
+.alert h2, .alert a, .alert a:visited {
+  color: #5aa934 !important;
+}
+
+.alert a, .alert a:visited {
+  text-decoration: underline !important;
+}
+
+div.newsletter > div {
+  padding: 1em;
+}
+
+div.postroll div.newsletter_thanks {
+  font-size:115%;
+}
+
+div.postroll form.marketo-form ul li label {
+  width: 7.5em;
+  display: inline-block !important;
+  float: none !important;
+  text-align: left;
+  font-size: 100%;
+}
+
+div.postroll form.marketo-form ul li {
+  padding-bottom:0.5em;
+}
+
+div.postroll form.marketo-form ul li.hidden {
+  display:none;
+}
+
+div.postroll form.marketo-form ul li.right input[type="checkbox"] {
+  margin:0 0.5em 0 0;
+}
+
+div.postroll form.marketo-form ul li.right label {
+  width:auto;
+}
+
+div.postroll form.marketo-form li#mktFrmButtons {
+  height: 2.25em;
+}
+
+div.postroll form.marketo-form input#mktFrmSubmit {
+  margin: .5em 0;
+  padding: .17em .7em .2em !important;
+  text-transform: uppercase;
+  font-size: 110%;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #7eca6f; /* old browsers */
+  background: -moz-linear-gradient(top, #7eca6f 0%, #469237 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7eca6f), color-stop(100%,#469237)); /* webkit */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#469237', endColorstr='#7eca6f',GradientType=0 ); /* ie */
+}
+
+div.postroll form.marketo-form input.checkbox {
+  margin-right: .5em;
+}
+
+div.postroll form.marketo-form select {
+  width: 12.5em !important;
+}
+
+div.postroll form.marketo-form input#PostalCode {
+  width: 8.5em !important;
+}
+
+div.postroll form.marketo-form input[type="text"] {
+  margin-top: -.5em;
+  height: 1.75em;
+}
+
+div.postroll .hideable label {
+  width: 6.33em !important;
+  padding-left: 1.25em;
+}
+
+.promo {
+  position: relative;
+  border-radius:8px;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  margin-bottom: 2em;
+  border: 2px solid #fff;
+  padding: 2em;
+  background: -moz-linear-gradient(left, #EAEADF 0%, #fff 50%, #EAEADF 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#EAEADF), color-stop(50%,#fff), color-stop(100%,#EAEADF)); /* webkit */
+  text-align: left;
+  font-family: "Lucida Grande";
+}
+
+.promo.wide {
+  padding-right:10px;
+}
+
+.promo-green {
+  background: #97c00e;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#e3fe89), color-stop(50%,#fff), color-stop(100%,#e3fe89)); /* webkit */
+}
+
+.promo-yellow {
+  background: #f1b600;
+}
+
+.promo-black {
+  background: #412b14; /* old browsers */
+  background: -moz-linear-gradient(left, #412b14 0%, #312113 50%, #412b14 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#312113), color-stop(50%,#412b14), color-stop(100%,#312113)); /* webkit */
+}
+
+.promo-windows {
+  background: #DAF3FD; /* old browsers */
+  background: -moz-linear-gradient(left, #DAF3FD 0%, #fff 50%, #DAF3FD 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#DAF3FD), color-stop(50%,#fff), color-stop(100%,#DAF3FD)); /* webkit */
+}
+
+.promo-apple {
+  background: #ddd; /* old browsers */
+  background: -moz-linear-gradient(left, #BDBDC1 0%, #fff 50%, #BDBDC1 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #BDBDC1), color-stop(50%, #fff), color-stop(100%, #BDBDC1)); /* webkit */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BDBDC1', endColorstr='#fff',GradientType=0 ); /* ie */
+}
+
+.promo-apple a, .promo-apple a:visited,  .promo-windows a, .promo-windows a:visited {
+  color: #000 !important;
+}
+
+.split-left .promo-os {
+  margin-top:0px;
+}
+
+.split-right .promo-os {
+  margin-top:1em;
+}
+
+a .promo-black h2, a:visited .promo-black h2 {
+  color: #fff !important;
+}
+
+.promo h2 {
+  margin: 0 0 0 25px;
+  padding-left: 40px;
+}
+
+.promo span {
+  display: block;
+  width: 50px;
+  position: absolute;
+  top: 14px;
+  left: 30px;
+  text-align: left;
+}
+
+.promo .ribbon {
+  position: absolute;
+  top: -1px;
+  right: -10px;
+}
+
+.promo-black span {
+  top: 11px;
+}
+
+div.split-left-postroll {
+  width: 46%;
+}
+
+div.split-right-postroll {
+  width: 46%;
+}
+
+#eventbanner {
+  margin-top:0em;
+  margin-bottom:1em;
+  position:relative;
+  top:-1.5em;
+}
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title> {% if page.title %} {{ page.title }} | {% endif %} POIS </title>
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body>
+        <div id="main">
+
+            <header>
+                <h1><a href="/">POIS</a></h1>
+                {% include navigation.html %}
+            </header>
+            <div id="green"></div>
+
+            {{ content }}
+
+            <footer>
+                {% include navigation.html %}<br>
+                <p>&copy; 2011 FELA Management AG | All Rights Reserved. </p>
+            </footer>
+
+      </div>
+    </body>
+</html>
